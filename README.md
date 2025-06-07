@@ -215,4 +215,4 @@ This project is offered under the [MIT License](LICENSE). Feel free to copy, mod
 
 ---
 
-Built with ❤️ by \NAKUL KUMAR — a simple demonstration of Flask + cosine‐similarity for basic plagiarism detection.
+Built by NAKUL KUMAR — a simple demonstration of Flask + cosine‐similarity for basic plagiarism detection.
