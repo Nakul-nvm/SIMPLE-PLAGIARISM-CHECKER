@@ -65,7 +65,7 @@ Simple-Plagiarism-Checker/
 
 ---
 
-## How It Works (Client-Side JavaScript)
+## How It Works
 
 1.  **User Input**: The user enters text into the textarea in `index.html`.
 2.  **Event Listener**: `script.js` listens for the form submission.
