@@ -106,6 +106,3 @@ Simple-Plagiarism-Checker/
   - For very large texts or more complex calculations, consider using Web Workers to offload the processing from the main browser thread, preventing UI freezes.
 
 ---
-
-This project was converted from a Flask-based application to a pure client-side JavaScript application.
-The original Flask version was built by NAKUL KUMAR.
