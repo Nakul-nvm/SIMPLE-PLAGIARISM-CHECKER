@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plagiarism Checker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Plagiarism Checker</h1>
+
+      <form id="plagiarismForm">
+        <label for="query">Input Text:</label>
+        <textarea
+          id="query"
+          name="query"
+          rows="8"
+          placeholder="Paste or type your text here..."
+          autofocus
+        ></textarea>
+
+        <button type="submit">Check Plagiarism</button>
+      </form>
+
+      <div id="resultSection" style="display: none;">
+        <div class="progress-box">
+          <div class="progress-message" id="progressMessage"></div>
+          <div class="progress-circle-container">
+            <svg class="progress-ring" width="80" height="80">
+              <circle
+                class="progress-ring__track"
+                stroke="#444"
+                stroke-width="8"
+                fill="transparent"
+                r="36"
+                cx="40"
+                cy="40"
+              />
+              <circle
+                class="progress-ring__circle"
+                stroke="#e74c3c"
+                stroke-width="8"
+                fill="transparent"
+                r="36"
+                cx="40"
+                cy="40"
+              />
+            </svg>
+            <div class="progress-text" id="progressText">0%</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
