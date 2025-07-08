@@ -106,4 +106,4 @@ Simple-Plagiarism-Checker/
   - For very large texts or more complex calculations, consider using Web Workers to offload the processing from the main browser thread, preventing UI freezes.
 
 ---
-Built with ❤️ by \[NAKUL KUMAR] — a simple demonstration of Flask + cosine‐similarity for basic plagiarism detection.
+Built with ❤️ by NAKUL KUMAR — a simple demonstration of Flask + cosine‐similarity for basic plagiarism detection.
